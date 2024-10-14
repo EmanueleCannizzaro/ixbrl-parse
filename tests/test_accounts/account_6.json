@@ -1,0 +1,1844 @@
+{
+    "schema": "https://xbrl.frc.org.uk/FRS-102/2021-01-01/FRS-102-2021-01-01.xsd",
+    "namespaces": {
+        "xmlns": [
+            "http://www.w3.org/1999/xhtml"
+        ],
+        "xmlns:FRS-102": [
+            "http://xbrl.frc.org.uk/FRS-102/2021-01-01"
+        ],
+        "xmlns:Q1": [
+            "http://xbrl.org/2005/xbrldt"
+        ],
+        "xmlns:Q2": [
+            "http://www.xbrl.org/dtr/type/non-numeric"
+        ],
+        "xmlns:accrep": [
+            "http://xbrl.frc.org.uk/reports/2021-01-01/accrep"
+        ],
+        "xmlns:aurep": [
+            "http://xbrl.frc.org.uk/reports/2021-01-01/aurep"
+        ],
+        "xmlns:bus": [
+            "http://xbrl.frc.org.uk/cd/2021-01-01/business"
+        ],
+        "xmlns:common": [
+            "http://xbrl.frc.org.uk/general/2021-01-01/common"
+        ],
+        "xmlns:core": [
+            "http://xbrl.frc.org.uk/fr/2021-01-01/core"
+        ],
+        "xmlns:countries": [
+            "http://xbrl.frc.org.uk/cd/2021-01-01/countries"
+        ],
+        "xmlns:curr": [
+            "http://xbrl.frc.org.uk/cd/2021-01-01/currencies"
+        ],
+        "xmlns:direp": [
+            "http://xbrl.frc.org.uk/reports/2021-01-01/direp"
+        ],
+        "xmlns:fn": [
+            "http://www.w3.org/2005/xpath-functions"
+        ],
+        "xmlns:iso4217": [
+            "http://www.xbrl.org/2003/iso4217"
+        ],
+        "xmlns:ix": [
+            "http://www.xbrl.org/2013/inlineXBRL"
+        ],
+        "xmlns:ixt": [
+            "http://www.xbrl.org/inlineXBRL/transformation/2010-04-20"
+        ],
+        "xmlns:lang": [
+            "http://xbrl.frc.org.uk/cd/2021-01-01/languages"
+        ],
+        "xmlns:link": [
+            "http://www.xbrl.org/2003/linkbase"
+        ],
+        "xmlns:nonnum": [
+            "http://www.xbrl.org/dtr/type/non-numeric"
+        ],
+        "xmlns:num": [
+            "http://www.xbrl.org/dtr/type/numeric"
+        ],
+        "xmlns:ref": [
+            "http://www.xbrl.org/2006/ref"
+        ],
+        "xmlns:types": [
+            "http://xbrl.frc.org.uk/general/2021-01-01/types"
+        ],
+        "xmlns:uk-ref": [
+            "http://xbrl.frc.org.uk/general/2021-01-01/ref"
+        ],
+        "xmlns:xbrldi": [
+            "http://xbrl.org/2006/xbrldi"
+        ],
+        "xmlns:xbrldt": [
+            "http://xbrl.org/2005/xbrldt"
+        ],
+        "xmlns:xbrli": [
+            "http://www.xbrl.org/2003/instance"
+        ],
+        "xmlns:xl": [
+            "http://www.xbrl.org/2003/XLink"
+        ],
+        "xmlns:xlink": [
+            "http://www.w3.org/1999/xlink"
+        ],
+        "xmlns:xsd": [
+            "http://www.w3.org/2001/XMLSchema"
+        ],
+        "xmlns:xsi": [
+            "http://www.w3.org/2001/XMLSchema-instance"
+        ]
+    },
+    "contexts": {
+        "C": {
+            "id": "C",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "C_AG_AH": {
+            "id": "C_AG_AH",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:RegisteredOffice",
+                    "dimension": "bus:EntityContactTypeDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "B": {
+            "id": "B",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [],
+            "instant": "2022-07-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "C_AN_AO": {
+            "id": "C_AN_AO",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:Director1",
+                    "dimension": "bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "C_AN_AQ": {
+            "id": "C_AN_AQ",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:Director2",
+                    "dimension": "bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "F": {
+            "id": "F",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [],
+            "instant": null,
+            "startdate": "2020-08-01",
+            "enddate": "2021-07-31"
+        },
+        "E": {
+            "id": "E",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [],
+            "instant": "2021-07-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "B_AT_AU_AW_AX": {
+            "id": "B_AT_AU_AW_AX",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "core:CurrentFinancialInstruments",
+                    "dimension": "core:FinancialInstrumentCurrentNon-currentDimension"
+                },
+                {
+                    "tag": "explicitMember",
+                    "value": "core:WithinOneYear",
+                    "dimension": "core:MaturitiesOrExpirationPeriodsDimension"
+                }
+            ],
+            "instant": "2022-07-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "E_AT_AU_AW_AX": {
+            "id": "E_AT_AU_AW_AX",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "core:CurrentFinancialInstruments",
+                    "dimension": "core:FinancialInstrumentCurrentNon-currentDimension"
+                },
+                {
+                    "tag": "explicitMember",
+                    "value": "core:WithinOneYear",
+                    "dimension": "core:MaturitiesOrExpirationPeriodsDimension"
+                }
+            ],
+            "instant": "2021-07-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "C_BE_BF": {
+            "id": "C_BE_BF",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:PrivateLimitedCompanyLtd",
+                    "dimension": "bus:LegalFormEntityDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "C_BG_BH": {
+            "id": "C_BG_BH",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:SmallCompaniesRegimeForAccounts",
+                    "dimension": "bus:ApplicableLegislationDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "C_BI_BJ": {
+            "id": "C_BI_BJ",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:Micro-entities",
+                    "dimension": "bus:AccountingStandardsDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "C_BK_BL": {
+            "id": "C_BK_BL",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:AuditExemptWithAccountantsReport",
+                    "dimension": "bus:AccountsStatusDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        },
+        "C_BN_BO": {
+            "id": "C_BN_BO",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "12345671"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "bus:FullAccounts",
+                    "dimension": "bus:AccountsTypeDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2021-08-01",
+            "enddate": "2022-07-31"
+        }
+    },
+    "units": {
+        "Pure": "xbrli:pure",
+        "Shares": "xbrli:shares",
+        "GBP": "iso4217:GBP"
+    },
+    "nonnumeric": [
+        {
+            "schema": "bus",
+            "name": "CountryFormationOrIncorporation",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "12345671",
+            "value": "12345671"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "bus",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "12345671",
+            "value": "12345671"
+        },
+        {
+            "schema": "bus",
+            "name": "AddressLine1",
+            "context": {
+                "id": "C_AG_AH",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:RegisteredOffice",
+                        "dimension": "bus:EntityContactTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "3 Fake Road",
+            "value": "3 Fake Road"
+        },
+        {
+            "schema": "bus",
+            "name": "PrincipalLocation-CityOrTown",
+            "context": {
+                "id": "C_AG_AH",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:RegisteredOffice",
+                        "dimension": "bus:EntityContactTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Testtown",
+            "value": "Testtown"
+        },
+        {
+            "schema": "bus",
+            "name": "PostalCodeZip",
+            "context": {
+                "id": "C_AG_AH",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:RegisteredOffice",
+                        "dimension": "bus:EntityContactTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "P1 5RF",
+            "value": "P1 5RF"
+        },
+        {
+            "schema": "bus",
+            "name": "NameEntityAccountants",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Accountants & Co LLP",
+            "value": "Accountants & Co LLP"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "bus",
+            "name": "BalanceSheetDate",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": {
+                "format": "datelonguk",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "31 July 2022",
+            "value": "2022-07-31"
+        },
+        {
+            "schema": "bus",
+            "name": "DescriptionPrincipalActivities",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "The principal activity of the company continued to be that of engineering related scientific and technical consulting activities.",
+            "value": "The principal activity of the company continued to be that of engineering related scientific and technical consulting activities."
+        },
+        {
+            "schema": "bus",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "C_AN_AO",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Director1",
+                        "dimension": "bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Dr L Fakename",
+            "value": "Dr L Fakename"
+        },
+        {
+            "schema": "bus",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "C_AN_AQ",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Director2",
+                        "dimension": "bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Mr R Fakename",
+            "value": "Mr R Fakename"
+        },
+        {
+            "schema": "direp",
+            "name": "StatementThatDirectorsReportHasBeenPreparedInAccordanceWithProvisionsSmallCompaniesRegime",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "This report has been prepared in accordance with the provisions applicable to companies entitled to the small companies' exemption.",
+            "value": "This report has been prepared in accordance with the provisions applicable to companies entitled to the small companies' exemption."
+        },
+        {
+            "schema": "direp",
+            "name": "DirectorSigningDirectorsReport",
+            "context": {
+                "id": "C_AN_AQ",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Director2",
+                        "dimension": "bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "accrep",
+            "name": "AccountantsReportOnFinancialStatements",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "This report is made solely to the board of directors of Test Exclude Limited, as a body, in accordance with the terms of our engagement letter dated 18 November 2022. Our work has been undertaken solely to prepare for your approval the financial statements of Test Exclude Limited and state those matters that we have agreed to state to the board of directors of Test Exclude Limited, as a body, in this report in accordance with ICAEW Technical Release 07/16 AAF. To the fullest extent permitted by law, we do not accept or assume responsibility to anyone other than Test Exclude Limited and its board of directors as a body, for our work or for this report.",
+            "value": "This report is made solely to the board of directors of Test Exclude Limited, as a body, in accordance with the terms of our engagement letter dated 18 November 2022. Our work has been undertaken solely to prepare for your approval the financial statements of Test Exclude Limited and state those matters that we have agreed to state to the board of directors of Test Exclude Limited, as a body, in this report in accordance with ICAEW Technical Release 07/16 AAF. To the fullest extent permitted by law, we do not accept or assume responsibility to anyone other than Test Exclude Limited and its board of directors as a body, for our work or for this report."
+        },
+        {
+            "schema": "accrep",
+            "name": "DateAccountantsReport",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": {
+                "format": "datelonguk",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "15 December 2022",
+            "value": "2022-12-15"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Test Exclude LIMITED",
+            "value": "Test Exclude LIMITED"
+        },
+        {
+            "schema": "direp",
+            "name": "StatementThatCompanyEntitledToExemptionFromAuditUnderSection477CompaniesAct2006RelatingToSmallCompanies",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "For the year ended 31 July 2022 the company was entitled to exemption from audit under section 477 of the Companies Act 2006 relating to small companies.",
+            "value": "For the year ended 31 July 2022 the company was entitled to exemption from audit under section 477 of the Companies Act 2006 relating to small companies."
+        },
+        {
+            "schema": "direp",
+            "name": "StatementThatDirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of financial statements.",
+            "value": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of financial statements."
+        },
+        {
+            "schema": "direp",
+            "name": "StatementThatMembersHaveNotRequiredCompanyToObtainAnAudit",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "The members have not required the company to obtain an audit of its financial statements for the year in question in accordance with section 476.",
+            "value": "The members have not required the company to obtain an audit of its financial statements for the year in question in accordance with section 476."
+        },
+        {
+            "schema": "direp",
+            "name": "StatementThatAccountsHaveBeenPreparedInAccordanceWithProvisionsSmallCompaniesRegime",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "These financial statements have been prepared in accordance with the micro-entity provisions and in accordance with FRS 105 'The Financial Reporting Standard applicable to the Micro-entities Regime' and delivered in accordance with the provisions applicable to companies subject to the small companies regime.",
+            "value": "These financial statements have been prepared in accordance with the micro-entity provisions and in accordance with FRS 105 'The Financial Reporting Standard applicable to the Micro-entities Regime' and delivered in accordance with the provisions applicable to companies subject to the small companies regime."
+        },
+        {
+            "schema": "core",
+            "name": "DateAuthorisationFinancialStatementsForIssue",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": {
+                "format": "datelonguk",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "15 December 2022",
+            "value": "2022-12-15"
+        },
+        {
+            "schema": "core",
+            "name": "DirectorSigningFinancialStatements",
+            "context": {
+                "id": "C_AN_AQ",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Director2",
+                        "dimension": "bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "CountryFormationOrIncorporation",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "12345671",
+            "value": "12345671"
+        },
+        {
+            "schema": "bus",
+            "name": "EndDateForPeriodCoveredByReport",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2022-07-31",
+            "value": "2022-07-31"
+        },
+        {
+            "schema": "bus",
+            "name": "StartDateForPeriodCoveredByReport",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2021-08-01",
+            "value": "2021-08-01"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityDormantTruefalse",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "false",
+            "value": "false"
+        },
+        {
+            "schema": "bus",
+            "name": "EntityTradingStatus",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "LegalFormEntity",
+            "context": {
+                "id": "C_BE_BF",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:PrivateLimitedCompanyLtd",
+                        "dimension": "bus:LegalFormEntityDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "NameProductionSoftware",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "BLAH Software",
+            "value": "BLAH Software"
+        },
+        {
+            "schema": "bus",
+            "name": "ApplicableLegislation",
+            "context": {
+                "id": "C_BG_BH",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:SmallCompaniesRegimeForAccounts",
+                        "dimension": "bus:ApplicableLegislationDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "VersionProductionSoftware",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "BLAH Accounts Production",
+            "value": "BLAH Accounts Production"
+        },
+        {
+            "schema": "bus",
+            "name": "AccountingStandardsApplied",
+            "context": {
+                "id": "C_BI_BJ",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Micro-entities",
+                        "dimension": "bus:AccountingStandardsDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "AccountsStatusAuditedOrUnaudited",
+            "context": {
+                "id": "C_BK_BL",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:AuditExemptWithAccountantsReport",
+                        "dimension": "bus:AccountsStatusDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "ScopeAccounts",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "bus",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "C_AN_AO",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Director1",
+                        "dimension": "bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Mr L Fakename",
+            "value": "Mr L Fakename"
+        },
+        {
+            "schema": "bus",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "C_AN_AQ",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:Director2",
+                        "dimension": "bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "Mr R Fakename",
+            "value": "Mr R Fakename"
+        },
+        {
+            "schema": "bus",
+            "name": "AccountsTypeFullOrAbbreviated",
+            "context": {
+                "id": "C_BN_BO",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "bus:FullAccounts",
+                        "dimension": "bus:AccountsTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        }
+    ],
+    "numeric": [
+        {
+            "name": "TurnoverRevenue",
+            "schema": "core",
+            "text": "3,456",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 3456.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TurnoverRevenue",
+            "schema": "core",
+            "text": "5,678",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 5678.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "OtherOperatingIncomeFormat2",
+            "schema": "core",
+            "text": "0",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "OtherOperatingIncomeFormat2",
+            "schema": "core",
+            "text": "1,310",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 1310.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "RawMaterialsConsumablesUsed",
+            "schema": "core",
+            "text": "1,100",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 1100.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "RawMaterialsConsumablesUsed",
+            "schema": "core",
+            "text": "1,748",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 1748.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "OtherOperatingExpensesFormat2",
+            "schema": "core",
+            "text": "394",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 394.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "OtherOperatingExpensesFormat2",
+            "schema": "core",
+            "text": "1,249",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 1249.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TaxTaxCreditOnProfitOrLossOnOrdinaryActivities",
+            "schema": "core",
+            "text": "43",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 43.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TaxTaxCreditOnProfitOrLossOnOrdinaryActivities",
+            "schema": "core",
+            "text": "192",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 192.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ProfitLoss",
+            "schema": "core",
+            "text": "456",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 456.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ProfitLoss",
+            "schema": "core",
+            "text": "2,847",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 2847.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CurrentAssets",
+            "schema": "core",
+            "text": "1,040",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1040.0,
+            "format": {
+                "decimals": 0,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CurrentAssets",
+            "schema": "core",
+            "text": "810",
+            "context": {
+                "id": "E",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2021-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 810.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "core",
+            "text": "786",
+            "context": {
+                "id": "B_AT_AU_AW_AX",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "core:CurrentFinancialInstruments",
+                        "dimension": "core:FinancialInstrumentCurrentNon-currentDimension"
+                    },
+                    {
+                        "tag": "explicitMember",
+                        "value": "core:WithinOneYear",
+                        "dimension": "core:MaturitiesOrExpirationPeriodsDimension"
+                    }
+                ],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 786.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "core",
+            "text": "805",
+            "context": {
+                "id": "E_AT_AU_AW_AX",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "core:CurrentFinancialInstruments",
+                        "dimension": "core:FinancialInstrumentCurrentNon-currentDimension"
+                    },
+                    {
+                        "tag": "explicitMember",
+                        "value": "core:WithinOneYear",
+                        "dimension": "core:MaturitiesOrExpirationPeriodsDimension"
+                    }
+                ],
+                "instant": "2021-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 805.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "core",
+            "text": "254",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 254.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "core",
+            "text": "5",
+            "context": {
+                "id": "E",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2021-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 5.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilities",
+            "schema": "core",
+            "text": "254",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 254.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilities",
+            "schema": "core",
+            "text": "5",
+            "context": {
+                "id": "E",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2021-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 5.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "core",
+            "text": "254",
+            "context": {
+                "id": "B",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2022-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 254.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "core",
+            "text": "5",
+            "context": {
+                "id": "E",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": "2021-07-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 5.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AverageNumberEmployeesDuringPeriod",
+            "schema": "core",
+            "text": "0",
+            "context": {
+                "id": "C",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2021-08-01",
+                "enddate": "2022-07-31"
+            },
+            "unit": "xbrli:pure",
+            "value": 0.0,
+            "format": {
+                "decimals": null,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AverageNumberEmployeesDuringPeriod",
+            "schema": "core",
+            "text": "0",
+            "context": {
+                "id": "F",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "12345671"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2020-08-01",
+                "enddate": "2021-07-31"
+            },
+            "unit": "xbrli:pure",
+            "value": 0.0,
+            "format": {
+                "decimals": null,
+                "format": "numcommadot",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        }
+    ],
+    "errors": 0
+}

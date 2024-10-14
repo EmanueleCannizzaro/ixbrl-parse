@@ -1,0 +1,880 @@
+{
+    "schema": "http://www.xbrl.org/uk/gaap/core/2009-09-01/uk-gaap-full-2009-09-01.xsd",
+    "namespaces": {
+        "xsi:schemaLocation": [
+            "http://www.w3.org/1999/xhtml",
+            "http://www.xbrl.org/2008/inlineXBRL/xhtml-inlinexbrl-1_0.xsd"
+        ],
+        "xmlns": [
+            "http://www.w3.org/1999/xhtml"
+        ],
+        "xmlns:iso4217": [
+            "http://www.xbrl.org/2003/iso4217"
+        ],
+        "xmlns:ix": [
+            "http://www.xbrl.org/2008/inlineXBRL"
+        ],
+        "xmlns:ixt": [
+            "http://www.xbrl.org/inlineXBRL/transformation/2011-07-31"
+        ],
+        "xmlns:link": [
+            "http://www.xbrl.org/2003/linkbase"
+        ],
+        "xmlns:uk-gaap-cd-bus": [
+            "http://www.xbrl.org/uk/cd/business/2009-09-01"
+        ],
+        "xmlns:uk-gaap-pt": [
+            "http://www.xbrl.org/uk/gaap/core/2009-09-01"
+        ],
+        "xmlns:uk-gaap-rp-dir": [
+            "http://www.xbrl.org/uk/reports/direp/2009-09-01"
+        ],
+        "xmlns:xbrldi": [
+            "http://xbrl.org/2006/xbrldi"
+        ],
+        "xmlns:xlink": [
+            "http://www.w3.org/1999/xlink"
+        ],
+        "xmlns:xsi": [
+            "http://www.w3.org/2001/XMLSchema-instance"
+        ]
+    },
+    "contexts": {
+        "current-period": {
+            "id": "current-period",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "03456789"
+            },
+            "segments": [],
+            "instant": null,
+            "startdate": "2015-10-01",
+            "enddate": "2016-09-30"
+        },
+        "current-mud": {
+            "id": "current-mud",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "03456789"
+            },
+            "segments": [],
+            "instant": "2016-09-30",
+            "startdate": null,
+            "enddate": null
+        },
+        "previous-mud": {
+            "id": "previous-mud",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "03456789"
+            },
+            "segments": [],
+            "instant": "2015-09-30",
+            "startdate": null,
+            "enddate": null
+        },
+        "current-period-director1": {
+            "id": "current-period-director1",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "03456789"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-gaap-cd-bus:Director1",
+                    "dimension": "uk-gaap-cd-bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2015-10-01",
+            "enddate": "2016-09-30"
+        },
+        "current-period-director2": {
+            "id": "current-period-director2",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "03456789"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-gaap-cd-bus:Director2",
+                    "dimension": "uk-gaap-cd-bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2015-10-01",
+            "enddate": "2016-09-30"
+        },
+        "current-period-allDirectors": {
+            "id": "current-period-allDirectors",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "03456789"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-gaap-cd-bus:AllEntityOfficers",
+                    "dimension": "uk-gaap-cd-bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2015-10-01",
+            "enddate": "2016-09-30"
+        }
+    },
+    "units": {
+        "currencyUnit": "iso4217:GBP",
+        "shares": "shares"
+    },
+    "nonnumeric": [
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "03456789",
+            "value": "03456789"
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "FAKETEST TECHNOLOGIES LIMITED",
+            "value": "FAKETEST TECHNOLOGIES LIMITED"
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "BalanceSheetDate",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2016-09-30",
+            "value": "2016-09-30"
+        },
+        {
+            "schema": "uk-gaap-pt",
+            "name": "NameDirectorSigningAccounts",
+            "context": {
+                "id": "current-period-director1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-gaap-cd-bus:Director1",
+                        "dimension": "uk-gaap-cd-bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-gaap-pt",
+            "name": "NameDirectorSigningAccounts",
+            "context": {
+                "id": "current-period-director2",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-gaap-cd-bus:Director2",
+                        "dimension": "uk-gaap-cd-bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "EntityDormant",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "false",
+            "value": "false"
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "StartDateForPeriodCoveredByReport",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2015-10-01",
+            "value": "2015-10-01"
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "EndDateForPeriodCoveredByReport",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2016-09-30",
+            "value": "2016-09-30"
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "EntityTrading",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "true",
+            "value": "true"
+        },
+        {
+            "schema": "uk-gaap-pt",
+            "name": "CompanyEntitledToExemptionUnderSection477CompaniesAct2006",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "For the year ending 30 September 2016 the company was entitled to exemption under section 477 of the Companies Act 2006 relating to small companies.",
+            "value": "For the year ending 30 September 2016 the company was entitled to exemption under section 477 of the Companies Act 2006 relating to small companies."
+        },
+        {
+            "schema": "uk-gaap-pt",
+            "name": "MembersHaveNotRequiredCompanyToObtainAnAudit",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "The members have not required the company to obtain an audit in accordance with section 476 of the Companies Act 2006.",
+            "value": "The members have not required the company to obtain an audit in accordance with section 476 of the Companies Act 2006."
+        },
+        {
+            "schema": "uk-gaap-rp-dir",
+            "name": "DirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of accounts.",
+            "value": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of accounts."
+        },
+        {
+            "schema": "uk-gaap-rp-dir",
+            "name": "AccountsAreInAccordanceWithSpecialProvisionsCompaniesActRelatingToSmallCompanies",
+            "context": {
+                "id": "current-period",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "The accounts have been prepared in accordance with the micro-entity provisions and delivered in accordance with the provisions applicable to companies subject to the small companies regime.",
+            "value": "The accounts have been prepared in accordance with the micro-entity provisions and delivered in accordance with the provisions applicable to companies subject to the small companies regime."
+        },
+        {
+            "schema": "uk-gaap-pt",
+            "name": "DateApprovalAccounts",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": {
+                "format": "datedaymonthyearen",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "22 April 2017",
+            "value": "2017-04-22"
+        },
+        {
+            "schema": "uk-gaap-cd-bus",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "current-period-director1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-gaap-cd-bus:Director1",
+                        "dimension": "uk-gaap-cd-bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2015-10-01",
+                "enddate": "2016-09-30"
+            },
+            "format": null,
+            "text": "Fakename McFakerson",
+            "value": "Fakename McFakerson"
+        }
+    ],
+    "numeric": [
+        {
+            "name": "CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CalledUpShareCapitalNotPaidNotExpressedAsCurrentAsset",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "FixedAssets",
+            "schema": "uk-gaap-pt",
+            "text": "-",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "FixedAssets",
+            "schema": "uk-gaap-pt",
+            "text": "-",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CurrentAssets",
+            "schema": "uk-gaap-pt",
+            "text": "-",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CurrentAssets",
+            "schema": "uk-gaap-pt",
+            "text": "-",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSubtotal",
+            "schema": "uk-gaap-pt",
+            "text": "-",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSubtotal",
+            "schema": "uk-gaap-pt",
+            "text": "-",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CreditorsDueWithinOneYear",
+            "schema": "uk-gaap-pt",
+            "text": "0",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "fixed-zero",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CreditorsDueWithinOneYear",
+            "schema": "uk-gaap-pt",
+            "text": "0",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "uk-gaap-pt",
+            "text": "0",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "uk-gaap-pt",
+            "text": "0",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TotalAssetsLessCurrentLiabilities",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TotalAssetsLessCurrentLiabilities",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilitiesIncludingPensionAssetLiability",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilitiesIncludingPensionAssetLiability",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ShareholderFunds",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "current-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2016-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ShareholderFunds",
+            "schema": "uk-gaap-pt",
+            "text": "1,000",
+            "context": {
+                "id": "previous-mud",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "03456789"
+                },
+                "segments": [],
+                "instant": "2015-09-30",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1000.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt",
+                "scale": 0,
+                "sign": ""
+            }
+        }
+    ],
+    "errors": 0
+}

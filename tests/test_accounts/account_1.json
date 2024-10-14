@@ -1,0 +1,1178 @@
+{
+    "schema": "https://xbrl.frc.org.uk/FRS-102/2014-09-01/FRS-102-2014-09-01.xsd",
+    "namespaces": {
+        "xmlns": [
+            "http://www.w3.org/1999/xhtml"
+        ],
+        "xmlns:iso4217": [
+            "http://www.xbrl.org/2003/iso4217"
+        ],
+        "xmlns:ix": [
+            "http://www.xbrl.org/2008/inlineXBRL"
+        ],
+        "xmlns:ixt2": [
+            "http://www.xbrl.org/inlineXBRL/transformation/2011-07-31"
+        ],
+        "xmlns:link": [
+            "http://www.xbrl.org/2003/linkbase"
+        ],
+        "xmlns:uk-bus": [
+            "http://xbrl.frc.org.uk/cd/2014-09-01/business"
+        ],
+        "xmlns:uk-core": [
+            "http://xbrl.frc.org.uk/fr/2014-09-01/core"
+        ],
+        "xmlns:uk-direp": [
+            "http://xbrl.frc.org.uk/reports/2014-09-01/direp"
+        ],
+        "xmlns:xbrldi": [
+            "http://xbrl.org/2006/xbrldi"
+        ],
+        "xmlns:xbrli": [
+            "http://www.xbrl.org/2003/instance"
+        ],
+        "xmlns:xlink": [
+            "http://www.w3.org/1999/xlink"
+        ]
+    },
+    "contexts": {
+        "icur1": {
+            "id": "icur1",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [],
+            "instant": "2017-10-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "dcur1": {
+            "id": "dcur1",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-bus:Director1",
+                    "dimension": "uk-bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2016-11-01",
+            "enddate": "2017-10-31"
+        },
+        "dcur2": {
+            "id": "dcur2",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-bus:Director2",
+                    "dimension": "uk-bus:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2016-11-01",
+            "enddate": "2017-10-31"
+        },
+        "dcur4": {
+            "id": "dcur4",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [],
+            "instant": null,
+            "startdate": "2016-11-01",
+            "enddate": "2017-10-31"
+        },
+        "dcur5": {
+            "id": "dcur5",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-bus:Micro-entities",
+                    "dimension": "uk-bus:AccountingStandardsDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2016-11-01",
+            "enddate": "2017-10-31"
+        },
+        "dcur6": {
+            "id": "dcur6",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-bus:FullAccounts",
+                    "dimension": "uk-bus:AccountsTypeDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2016-11-01",
+            "enddate": "2017-10-31"
+        },
+        "dcur7": {
+            "id": "dcur7",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-bus:AuditExempt-NoAccountantsReport",
+                    "dimension": "uk-bus:AccountsStatusDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2016-11-01",
+            "enddate": "2017-10-31"
+        },
+        "iprev8": {
+            "id": "iprev8",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [],
+            "instant": "2016-10-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "icur9": {
+            "id": "icur9",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-core:WithinOneYear",
+                    "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                }
+            ],
+            "instant": "2017-10-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "iprev10": {
+            "id": "iprev10",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-core:WithinOneYear",
+                    "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                }
+            ],
+            "instant": "2016-10-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "icur11": {
+            "id": "icur11",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-core:AfterOneYear",
+                    "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                }
+            ],
+            "instant": "2017-10-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "iprev12": {
+            "id": "iprev12",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "02345678"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "uk-core:AfterOneYear",
+                    "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                }
+            ],
+            "instant": "2016-10-31",
+            "startdate": null,
+            "enddate": null
+        }
+    },
+    "units": {
+        "GBP": "iso4217:GBP"
+    },
+    "nonnumeric": [
+        {
+            "schema": "uk-bus",
+            "name": "StartDateForPeriodCoveredByReport",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2016-11-01",
+            "value": "2016-11-01"
+        },
+        {
+            "schema": "uk-bus",
+            "name": "EndDateForPeriodCoveredByReport",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": null,
+            "text": "2017-10-31",
+            "value": "2017-10-31"
+        },
+        {
+            "schema": "uk-core",
+            "name": "DirectorSigningFinancialStatements",
+            "context": {
+                "id": "dcur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-bus:Director1",
+                        "dimension": "uk-bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-core",
+            "name": "DirectorSigningFinancialStatements",
+            "context": {
+                "id": "dcur2",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-bus:Director2",
+                        "dimension": "uk-bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-bus",
+            "name": "EntityDormantTruefalse",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "false",
+            "value": "false"
+        },
+        {
+            "schema": "uk-bus",
+            "name": "AccountingStandardsApplied",
+            "context": {
+                "id": "dcur5",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-bus:Micro-entities",
+                        "dimension": "uk-bus:AccountingStandardsDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-bus",
+            "name": "AccountsTypeFullOrAbbreviated",
+            "context": {
+                "id": "dcur6",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-bus:FullAccounts",
+                        "dimension": "uk-bus:AccountsTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-bus",
+            "name": "AccountsStatusAuditedOrUnaudited",
+            "context": {
+                "id": "dcur7",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-bus:AuditExempt-NoAccountantsReport",
+                        "dimension": "uk-bus:AccountsStatusDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-bus",
+            "name": "EntityTradingStatus",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "",
+            "value": ""
+        },
+        {
+            "schema": "uk-bus",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "02345678",
+            "value": "02345678"
+        },
+        {
+            "schema": "uk-bus",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "GREEN BARKINGSHIRE LIMITED",
+            "value": "GREEN BARKINGSHIRE LIMITED"
+        },
+        {
+            "schema": "uk-bus",
+            "name": "BalanceSheetDate",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": {
+                "format": "datedaymonthyearen",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "31 October 2017",
+            "value": "2017-10-31"
+        },
+        {
+            "schema": "uk-direp",
+            "name": "StatementThatCompanyEntitledToExemptionFromAuditUnderSection477CompaniesAct2006RelatingToSmallCompanies",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "For the year ending 31 October 2017 the company was entitled to exemption under section 477 of the Companies Act 2006 relating to small companies.",
+            "value": "For the year ending 31 October 2017 the company was entitled to exemption under section 477 of the Companies Act 2006 relating to small companies."
+        },
+        {
+            "schema": "uk-direp",
+            "name": "StatementThatMembersHaveNotRequiredCompanyToObtainAnAudit",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "The members have not required the company to obtain an audit in accordance with section 476 of the Companies Act 2006.",
+            "value": "The members have not required the company to obtain an audit in accordance with section 476 of the Companies Act 2006."
+        },
+        {
+            "schema": "uk-direp",
+            "name": "StatementThatDirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of accounts.",
+            "value": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of accounts."
+        },
+        {
+            "schema": "uk-direp",
+            "name": "StatementThatAccountsHaveBeenPreparedInAccordanceWithProvisionsSmallCompaniesRegime",
+            "context": {
+                "id": "dcur4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "The accounts have been prepared in accordance with the micro-entity provisions and delivered in accordance with the provisions applicable to companies subject to the small companies regime.",
+            "value": "The accounts have been prepared in accordance with the micro-entity provisions and delivered in accordance with the provisions applicable to companies subject to the small companies regime."
+        },
+        {
+            "schema": "uk-core",
+            "name": "DateAuthorisationFinancialStatementsForIssue",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "format": {
+                "format": "datedaymonthyearen",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "25 September 2018",
+            "value": "2018-09-25"
+        },
+        {
+            "schema": "uk-bus",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "dcur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-bus:Director1",
+                        "dimension": "uk-bus:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2016-11-01",
+                "enddate": "2017-10-31"
+            },
+            "format": null,
+            "text": "Johnny Fakename",
+            "value": "Johnny Fakename"
+        }
+    ],
+    "numeric": [
+        {
+            "name": "FixedAssets",
+            "schema": "uk-core",
+            "text": "-",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 2,
+                "format": "zerodash",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "FixedAssets",
+            "schema": "uk-core",
+            "text": "-",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 2,
+                "format": "zerodash",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CurrentAssets",
+            "schema": "uk-core",
+            "text": "2,909",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 2909.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CurrentAssets",
+            "schema": "uk-core",
+            "text": "4,585",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 4585.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSubtotal",
+            "schema": "uk-core",
+            "text": "-",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 2,
+                "format": "zerodash",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PrepaymentsAccruedIncomeNotExpressedWithinCurrentAssetSubtotal",
+            "schema": "uk-core",
+            "text": "-",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 2,
+                "format": "zerodash",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "uk-core",
+            "text": "6,719",
+            "context": {
+                "id": "icur9",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-core:WithinOneYear",
+                        "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                    }
+                ],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 6719.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "uk-core",
+            "text": "5,879",
+            "context": {
+                "id": "iprev10",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-core:WithinOneYear",
+                        "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                    }
+                ],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 5879.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "uk-core",
+            "text": "3,810",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 3810.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "uk-core",
+            "text": "1,294",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1294.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TotalAssetsLessCurrentLiabilities",
+            "schema": "uk-core",
+            "text": "3,810",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 3810.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TotalAssetsLessCurrentLiabilities",
+            "schema": "uk-core",
+            "text": "1,294",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1294.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "uk-core",
+            "text": "0",
+            "context": {
+                "id": "icur11",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-core:AfterOneYear",
+                        "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                    }
+                ],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "uk-core",
+            "text": "0",
+            "context": {
+                "id": "iprev12",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "uk-core:AfterOneYear",
+                        "dimension": "uk-core:MaturitiesOrExpirationPeriodsDimension"
+                    }
+                ],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ProvisionsForLiabilitiesBalanceSheetSubtotal",
+            "schema": "uk-core",
+            "text": "0",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ProvisionsForLiabilitiesBalanceSheetSubtotal",
+            "schema": "uk-core",
+            "text": "0",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AccruedLiabilitiesNotExpressedWithinCreditorsSubtotal",
+            "schema": "uk-core",
+            "text": "0",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AccruedLiabilitiesNotExpressedWithinCreditorsSubtotal",
+            "schema": "uk-core",
+            "text": "0",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilities",
+            "schema": "uk-core",
+            "text": "3,810",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 3810.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilities",
+            "schema": "uk-core",
+            "text": "1,294",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1294.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "uk-core",
+            "text": "3,810",
+            "context": {
+                "id": "icur1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2017-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 3810.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "uk-core",
+            "text": "1,294",
+            "context": {
+                "id": "iprev8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "02345678"
+                },
+                "segments": [],
+                "instant": "2016-10-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 1294.0,
+            "format": {
+                "decimals": 2,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        }
+    ],
+    "errors": 0
+}

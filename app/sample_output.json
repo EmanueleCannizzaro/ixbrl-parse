@@ -1,0 +1,162 @@
+{
+    "file_path": "/path/to/sample_xbrl_file.xbrl",
+    "file_size": 52840,
+    "encoding": "UTF-8",
+    "xbrl_content": {
+      "xmlns": "http://www.xbrl.org/2003/instance",
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "xmlns:xbrli": "http://www.xbrl.org/2003/instance",
+      "xmlns:iso4217": "http://www.xbrl.org/2003/iso4217",
+      "xmlns:link": "http://www.xbrl.org/2003/linkbase",
+      "xmlns:xlink": "http://www.w3.org/1999/xlink",
+      "xmlns:ifrs-full": "http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full",
+      "xmlns:itcc-ci": "http://www.infocamere.it/itnn/fr/itcc/ci/2018-11-04",
+      "children": [
+        {
+          "tag": "ifrs-full:Assets",
+          "text": "1000000",
+          "attributes": {
+            "contextRef": "AsOf2023-12-31",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:Liabilities",
+          "text": "600000",
+          "attributes": {
+            "contextRef": "AsOf2023-12-31",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:Equity",
+          "text": "400000",
+          "attributes": {
+            "contextRef": "AsOf2023-12-31",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:Revenue",
+          "text": "500000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:CostOfSales",
+          "text": "300000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:GrossProfit",
+          "text": "200000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:ProfitLoss",
+          "text": "150000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+          "text": "180000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+          "text": "-50000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+          "text": "-30000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "itcc-ci:RicaviVendite",
+          "text": "500000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "itcc-ci:CostiProduzione",
+          "text": "350000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "itcc-ci:UtileOperativo",
+          "text": "150000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "itcc-ci:OneriFinanziari",
+          "text": "20000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        },
+        {
+          "tag": "itcc-ci:UtileNetto",
+          "text": "130000",
+          "attributes": {
+            "contextRef": "FY2023",
+            "unitRef": "EUR",
+            "decimals": "-3"
+          }
+        }
+      ]
+    },
+    "sector_averages": {
+      "CurrentRatio": 1.5,
+      "DebtToEquityRatio": 1.2,
+      "ReturnOnAssets": 0.08,
+      "ReturnOnEquity": 0.15,
+      "ProfitMargin": 0.1,
+      "AssetTurnover": 0.8,
+      "EquityRatio": 0.45,
+      "RevenueGrowth": 0.05
+    }
+  }

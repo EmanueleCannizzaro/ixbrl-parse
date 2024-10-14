@@ -1,0 +1,2650 @@
+{
+  "file_path": "/media/emanuele/ai/investigazione_finanziaria/infocamere/quantum/20240506/1182903637.2022.xbrl",
+  "file_size": 53933,
+  "encoding": "ascii",
+  "xbrl_content": {
+    "tag": "xbrl",
+    "children": [
+      {
+        "tag": "schemaRef",
+        "attributes": {
+          "{http://www.w3.org/1999/xlink}type": "simple",
+          "{http://www.w3.org/1999/xlink}arcrole": "http://www.w3.org/1999/xlink/properties/linkbase",
+          "{http://www.w3.org/1999/xlink}href": "itcc-ci-abb-2018-11-04.xsd"
+        }
+      },
+      {
+        "tag": "context",
+        "attributes": {
+          "id": "cntxCorr_d"
+        },
+        "children": [
+          {
+            "tag": "entity",
+            "children": [
+              {
+                "tag": "identifier",
+                "text": "01229950199",
+                "attributes": {
+                  "scheme": "http://www.infocamere.it"
+                }
+              }
+            ]
+          },
+          {
+            "tag": "period",
+            "children": [
+              {
+                "tag": "startDate",
+                "text": "2022-01-01"
+              },
+              {
+                "tag": "endDate",
+                "text": "2022-12-31"
+              }
+            ]
+          },
+          {
+            "tag": "scenario",
+            "children": [
+              {
+                "tag": "scen",
+                "text": "Depositato"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "context",
+        "attributes": {
+          "id": "cntxCorr_i"
+        },
+        "children": [
+          {
+            "tag": "entity",
+            "children": [
+              {
+                "tag": "identifier",
+                "text": "01229950199",
+                "attributes": {
+                  "scheme": "http://www.infocamere.it"
+                }
+              }
+            ]
+          },
+          {
+            "tag": "period",
+            "children": [
+              {
+                "tag": "instant",
+                "text": "2022-12-31"
+              }
+            ]
+          },
+          {
+            "tag": "scenario",
+            "children": [
+              {
+                "tag": "scen",
+                "text": "Depositato"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "context",
+        "attributes": {
+          "id": "cntxPrev_d"
+        },
+        "children": [
+          {
+            "tag": "entity",
+            "children": [
+              {
+                "tag": "identifier",
+                "text": "01229950199",
+                "attributes": {
+                  "scheme": "http://www.infocamere.it"
+                }
+              }
+            ]
+          },
+          {
+            "tag": "period",
+            "children": [
+              {
+                "tag": "startDate",
+                "text": "2021-01-01"
+              },
+              {
+                "tag": "endDate",
+                "text": "2021-12-31"
+              }
+            ]
+          },
+          {
+            "tag": "scenario",
+            "children": [
+              {
+                "tag": "scen",
+                "text": "Depositato"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "context",
+        "attributes": {
+          "id": "cntxPrev_i"
+        },
+        "children": [
+          {
+            "tag": "entity",
+            "children": [
+              {
+                "tag": "identifier",
+                "text": "01229950199",
+                "attributes": {
+                  "scheme": "http://www.infocamere.it"
+                }
+              }
+            ]
+          },
+          {
+            "tag": "period",
+            "children": [
+              {
+                "tag": "instant",
+                "text": "2021-12-31"
+              }
+            ]
+          },
+          {
+            "tag": "scenario",
+            "children": [
+              {
+                "tag": "scen",
+                "text": "Depositato"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "unit",
+        "attributes": {
+          "id": "eur"
+        },
+        "children": [
+          {
+            "tag": "measure",
+            "text": "iso4217:EUR"
+          }
+        ]
+      },
+      {
+        "tag": "unit",
+        "attributes": {
+          "id": "shares"
+        },
+        "children": [
+          {
+            "tag": "measure",
+            "text": "xbrli:shares"
+          }
+        ]
+      },
+      {
+        "tag": "unit",
+        "attributes": {
+          "id": "pure"
+        },
+        "children": [
+          {
+            "tag": "measure",
+            "text": "xbrli:pure"
+          }
+        ]
+      },
+      {
+        "tag": "DatiAnagraficiDenominazione",
+        "text": "QUANTUM GROUP SRL",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiSede",
+        "text": "VIA UBERTO VISCONTI DI MODRONE 7 20122 MILANO (MI)",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiCapitaleSociale",
+        "text": "20600",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiCapitaleSocialeInteramenteVersato",
+        "text": "true",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiCodiceCciaa",
+        "text": "MI",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiPartitaIva",
+        "text": "01229950199",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiCodiceFiscale",
+        "text": "01229950199",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiNumeroRea",
+        "text": "2017099",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiSettoreAttivitaPrevalenteAteco",
+        "text": "Locazione immobiliare di beni propri (68.20.01)",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiSocietaLiquidazione",
+        "text": "false",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiSocietaSocioUnico",
+        "text": "true",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiSocietaSottopostaAltruiAttivitaDirezioneCoordinamento",
+        "text": "false",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiAppartenenzaGruppo",
+        "text": "true",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiDenominazioneSocietaCapogruppo",
+        "text": "QUANTUM GROUP SRL",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiPaeseCapogruppo",
+        "text": "ITALIA",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "DatiAnagraficiNumeroIscrizioneAlboCooperative",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiCostiImpiantoAmpliamento",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiCostiSviluppo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiDirittiBrevettoIndustrialeDirittiUtilizzazioneOpereIngegno",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiConcessioniLicenzeMarchiDirittiSimili",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiAvviamento",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiImmobilizzazioniCorsoAcconti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiAltre",
+        "text": "104406",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioniImmateriali",
+        "text": "104406",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiTerreniFabbricati",
+        "text": "1773905",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiImpiantiMacchinario",
+        "text": "346804",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiAttrezzatureIndustrialiCommerciali",
+        "text": "118619",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiAltriBeni",
+        "text": "719717",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiImmobilizzazioniCorsoAcconti",
+        "text": "255204",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioniMateriali",
+        "text": "3214247",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseControllateEsigibiliEntroEsercizioSuccessivo",
+        "text": "1217633",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseControllateEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseControllateTotaleCreditiVersoImpreseControllate",
+        "text": "1217633",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseCollegateEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseCollegateEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseCollegateTotaleCreditiVersoImpreseCollegate",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoControllantiEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoControllantiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoControllantiTotaleCreditiVersoControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseSottoposteControlloControllantiEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseSottoposteControlloControllantiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseSottoposteControlloControllantiTotaleCreditiVersoImpreseSottoposteControlloControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoAltriEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoAltriEsigibiliOltreEsercizioSuccessivo",
+        "text": "34800",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoAltriTotaleCreditiVersoAltri",
+        "text": "34800",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiTotaleCrediti",
+        "text": "1252433",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioniFinanziarie",
+        "text": "3715408",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioni",
+        "text": "7034061",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeMateriePrimeSussidiarieConsumo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeProdottiCorsoLavorazioneSemilavorati",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeLavoriCorsoOrdinazione",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeProdottiFinitiMerci",
+        "text": "257830",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeAcconti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleRimanenze",
+        "text": "257830",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoClientiEsigibiliEntroEsercizioSuccessivo",
+        "text": "26591",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoClientiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoClientiTotaleCreditiVersoClienti",
+        "text": "26591",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseControllateEsigibiliEntroEsercizioSuccessivo",
+        "text": "450352",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseControllateEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseControllateTotaleCreditiVersoImpreseControllate",
+        "text": "450352",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseCollegateEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseCollegateEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseCollegateTotaleCreditiVersoImpreseCollegate",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoControllantiEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoControllantiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoControllantiTotaleCreditiVersoControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseSottoposteControlloControllantiEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseSottoposteControlloControllantiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseSottoposteControlloControllantiTotaleCreditiVersoImpreseSottoposteControlloControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiCreditiTributariEsigibiliEntroEsercizioSuccessivo",
+        "text": "190435",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiCreditiTributariEsigibiliOltreEsercizioSuccessivo",
+        "text": "72845",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiCreditiTributariTotaleCreditiTributari",
+        "text": "263280",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoAltriEsigibiliEntroEsercizioSuccessivo",
+        "text": "122242",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoAltriEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoAltriTotaleCreditiVersoAltri",
+        "text": "122242",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleCrediti",
+        "text": "862464",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DisponibilitaLiquideDepositiBancariPostali",
+        "text": "649517",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DisponibilitaLiquideAssegni",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DisponibilitaLiquideDanaroValoriCassa",
+        "text": "2938",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleDisponibilitaLiquide",
+        "text": "652455",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleAttivoCircolante",
+        "text": "1772749",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "AttivoRateiRisconti",
+        "text": "70341",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleAttivo",
+        "text": "8877151",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoCapitale",
+        "text": "20600",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoRiservaLegale",
+        "text": "22580",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaStraordinaria",
+        "text": "1205788",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaDerogheExArticolo2423CodiceCivile",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaAzioniQuoteSocietaControllante",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaRivalutazionePartecipazioni",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateVersamentiContoAumentoCapitale",
+        "text": "1600000",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateVersamentiContoFuturoAumentoCapitale",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateVersamentiContoCapitale",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateVersamentiCoperturaPerdite",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaRiduzioneCapitaleSociale",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaAvanzoFusione",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaUtiliCambiNonRealizzati",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateRiservaConguaglioUtiliCorso",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateVarieAltreRiserve",
+        "text": "-2",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateTotaleAltreRiserve",
+        "text": "2805786",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoUtilePerditaEsercizio",
+        "text": "163277",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotalePatrimonioNetto",
+        "text": "3012243",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniTotaleObbligazioni",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniConvertibiliEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniConvertibiliEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniConvertibiliTotaleObbligazioniConvertibili",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoSociFinanziamentiEsigibiliEntroEsercizioSuccessivo",
+        "text": "4683000",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoSociFinanziamentiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoSociFinanziamentiTotaleDebitiVersoSociFinanziamenti",
+        "text": "4683000",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoBancheEsigibiliEntroEsercizioSuccessivo",
+        "text": "201420",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoBancheEsigibiliOltreEsercizioSuccessivo",
+        "text": "437621",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoBancheTotaleDebitiVersoBanche",
+        "text": "639041",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoAltriFinanziatoriEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoAltriFinanziatoriEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoAltriFinanziatoriTotaleDebitiVersoAltriFinanziatori",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAccontiEsigibiliEntroEsercizioSuccessivo",
+        "text": "20000",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAccontiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAccontiTotaleAcconti",
+        "text": "20000",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoFornitoriEsigibiliEntroEsercizioSuccessivo",
+        "text": "84098",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoFornitoriEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoFornitoriTotaleDebitiVersoFornitori",
+        "text": "84098",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiRappresentatiTitoliCreditoEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiRappresentatiTitoliCreditoEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiRappresentatiTitoliCreditoTotaleDebitiRappresentatiTitoliCredito",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseControllateEsigibiliEntroEsercizioSuccessivo",
+        "text": "68429",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseControllateEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseControllateTotaleDebitiVersoImpreseControllate",
+        "text": "68429",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseCollegateEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseCollegateEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseCollegateTotaleDebitiVersoImpreseCollegate",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoControllantiEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoControllantiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoControllantiTotaleDebitiVersoControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseSottoposteControlloControllantiEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseSottoposteControlloControllantiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseSottoposteControlloControllantiTotaleDebitiVersoImpreseSottoposteControlloControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiTributariEsigibiliEntroEsercizioSuccessivo",
+        "text": "238660",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiTributariEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiTributariTotaleDebitiTributari",
+        "text": "238660",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoIstitutiPrevidenzaSicurezzaSocialeEsigibiliEntroEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoIstitutiPrevidenzaSicurezzaSocialeEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoIstitutiPrevidenzaSicurezzaSocialeTotaleDebitiVersoIstitutiPrevidenzaSicurezzaSociale",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAltriDebitiEsigibiliEntroEsercizioSuccessivo",
+        "text": "86067",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAltriDebitiEsigibiliOltreEsercizioSuccessivo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAltriDebitiTotaleAltriDebiti",
+        "text": "86067",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleDebiti",
+        "text": "5819295",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PassivoRateiRisconti",
+        "text": "45613",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotalePassivo",
+        "text": "8877151",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiCostiImpiantoAmpliamento",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiCostiSviluppo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiDirittiBrevettoIndustrialeDirittiUtilizzazioneOpereIngegno",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiConcessioniLicenzeMarchiDirittiSimili",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiAvviamento",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiImmobilizzazioniCorsoAcconti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniImmaterialiAltre",
+        "text": "119709",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioniImmateriali",
+        "text": "119709",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiTerreniFabbricati",
+        "text": "1058293",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiImpiantiMacchinario",
+        "text": "375450",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiAttrezzatureIndustrialiCommerciali",
+        "text": "103876",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiAltriBeni",
+        "text": "713237",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniMaterialiImmobilizzazioniCorsoAcconti",
+        "text": "942843",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioniMateriali",
+        "text": "3193699",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseControllateTotaleCreditiVersoImpreseControllate",
+        "text": "2251998",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseCollegateTotaleCreditiVersoImpreseCollegate",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoControllantiTotaleCreditiVersoControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoImpreseSottoposteControlloControllantiTotaleCreditiVersoImpreseSottoposteControlloControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiVersoAltriTotaleCreditiVersoAltri",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImmobilizzazioniFinanziarieCreditiTotaleCrediti",
+        "text": "2251998",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioniFinanziarie",
+        "text": "4715322",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleImmobilizzazioni",
+        "text": "8028730",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeMateriePrimeSussidiarieConsumo",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeProdottiCorsoLavorazioneSemilavorati",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeLavoriCorsoOrdinazione",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeProdottiFinitiMerci",
+        "text": "722749",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RimanenzeAcconti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleRimanenze",
+        "text": "722749",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoClientiTotaleCreditiVersoClienti",
+        "text": "28054",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseControllateTotaleCreditiVersoImpreseControllate",
+        "text": "477257",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseCollegateTotaleCreditiVersoImpreseCollegate",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoControllantiTotaleCreditiVersoControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoImpreseSottoposteControlloControllantiTotaleCreditiVersoImpreseSottoposteControlloControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiCreditiTributariTotaleCreditiTributari",
+        "text": "245532",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiVersoAltriTotaleCreditiVersoAltri",
+        "text": "47099",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleCrediti",
+        "text": "797942",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DisponibilitaLiquideDepositiBancariPostali",
+        "text": "356250",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DisponibilitaLiquideAssegni",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DisponibilitaLiquideDanaroValoriCassa",
+        "text": "2376",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleDisponibilitaLiquide",
+        "text": "358626",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleAttivoCircolante",
+        "text": "1879317",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "AttivoRateiRisconti",
+        "text": "75691",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleAttivo",
+        "text": "9983738",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoCapitale",
+        "text": "20600",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoRiservaLegale",
+        "text": "22580",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoAltreRiserveDistintamenteIndicateTotaleAltreRiserve",
+        "text": "2957830",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PatrimonioNettoUtilePerditaEsercizio",
+        "text": "-152044",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotalePatrimonioNetto",
+        "text": "2848966",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniTotaleObbligazioni",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiObbligazioniConvertibiliTotaleObbligazioniConvertibili",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoSociFinanziamentiTotaleDebitiVersoSociFinanziamenti",
+        "text": "5708000",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoBancheTotaleDebitiVersoBanche",
+        "text": "172068",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoAltriFinanziatoriTotaleDebitiVersoAltriFinanziatori",
+        "text": "613661",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAccontiTotaleAcconti",
+        "text": "20000",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoFornitoriTotaleDebitiVersoFornitori",
+        "text": "104489",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiRappresentatiTitoliCreditoTotaleDebitiRappresentatiTitoliCredito",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseControllateTotaleDebitiVersoImpreseControllate",
+        "text": "269595",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseCollegateTotaleDebitiVersoImpreseCollegate",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoControllantiTotaleDebitiVersoControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoImpreseSottoposteControlloControllantiTotaleDebitiVersoImpreseSottoposteControlloControllanti",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiTributariTotaleDebitiTributari",
+        "text": "97746",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiDebitiVersoIstitutiPrevidenzaSicurezzaSocialeTotaleDebitiVersoIstitutiPrevidenzaSicurezzaSociale",
+        "text": "0",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiAltriDebitiTotaleAltriDebiti",
+        "text": "88850",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleDebiti",
+        "text": "7074409",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "PassivoRateiRisconti",
+        "text": "60363",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotalePassivo",
+        "text": "9983738",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiEsigibiliEntroEsercizioSuccessivo",
+        "text": "789619",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiEsigibiliOltreEsercizioSuccessivo",
+        "text": "72845",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiEsigibiliEntroEsercizioSuccessivo",
+        "text": "5381674",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiEsigibiliOltreEsercizioSuccessivo",
+        "text": "437621",
+        "attributes": {
+          "contextRef": "cntxCorr_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CreditiEsigibiliEntroEsercizioSuccessivo",
+        "text": "797942",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiEsigibiliEntroEsercizioSuccessivo",
+        "text": "6460748",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DebitiEsigibiliOltreEsercizioSuccessivo",
+        "text": "613661",
+        "attributes": {
+          "contextRef": "cntxPrev_i",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneRicaviVenditePrestazioni",
+        "text": "366535",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneAltriRicaviProventiContributiContoEsercizio",
+        "text": "12135",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneAltriRicaviProventiAltri",
+        "text": "10457",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneAltriRicaviProventiTotaleAltriRicaviProventi",
+        "text": "22592",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleValoreProduzione",
+        "text": "389127",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneServizi",
+        "text": "212897",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneGodimentoBeniTerzi",
+        "text": "108909",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniAmmortamentoImmobilizzazioniImmateriali",
+        "text": "19235",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniAmmortamentoImmobilizzazioniMateriali",
+        "text": "186780",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniTotaleAmmortamentiSvalutazioni",
+        "text": "206015",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneVariazioniRimanenzeMateriePrimeSussidiarieConsumoMerci",
+        "text": "464919",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneOneriDiversiGestione",
+        "text": "33990",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleCostiProduzione",
+        "text": "1026730",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DifferenzaValoreCostiProduzione",
+        "text": "-637603",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariProventiPartecipazioniImpreseControllate",
+        "text": "672000",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariProventiPartecipazioniTotaleProventiPartecipazioni",
+        "text": "672000",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariAltriProventiFinanziariProventiDiversiPrecedentiAltri",
+        "text": "1",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariAltriProventiFinanziariProventiDiversiPrecedentiTotaleProventiDiversiPrecedenti",
+        "text": "1",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariAltriProventiFinanziariTotaleAltriProventiFinanziari",
+        "text": "1",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariInteressiAltriOneriFinanziariAltri",
+        "text": "15200",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariInteressiAltriOneriFinanziariTotaleInteressiAltriOneriFinanziari",
+        "text": "15200",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleProventiOneriFinanziari",
+        "text": "656801",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RisultatoPrimaImposte",
+        "text": "19198",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImposteRedditoEsercizioCorrentiDifferiteAnticipateImposteRelativeEserciziPrecedenti",
+        "text": "715",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImposteRedditoEsercizioCorrentiDifferiteAnticipateProventiOneriAdesioneRegimeConsolidatoFiscaleTrasparenzaFiscale",
+        "text": "144794",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImposteRedditoEsercizioCorrentiDifferiteAnticipateTotaleImposteRedditoEsercizioCorrentiDifferiteAnticipate",
+        "text": "-144079",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "UtilePerditaEsercizio",
+        "text": "163277",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneRicaviVenditePrestazioni",
+        "text": "255998",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneAltriRicaviProventiAltri",
+        "text": "105441",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ValoreProduzioneAltriRicaviProventiTotaleAltriRicaviProventi",
+        "text": "105441",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleValoreProduzione",
+        "text": "361439",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneServizi",
+        "text": "179934",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneGodimentoBeniTerzi",
+        "text": "116939",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniAmmortamentoImmobilizzazioniImmateriali",
+        "text": "20350",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniAmmortamentoImmobilizzazioniMateriali",
+        "text": "155318",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniTotaleAmmortamentiSvalutazioni",
+        "text": "175667",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneVariazioniRimanenzeMateriePrimeSussidiarieConsumoMerci",
+        "text": "-9242",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneOneriDiversiGestione",
+        "text": "146922",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleCostiProduzione",
+        "text": "610220",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "DifferenzaValoreCostiProduzione",
+        "text": "-248781",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariAltriProventiFinanziariProventiDiversiPrecedentiAltri",
+        "text": "64",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariAltriProventiFinanziariProventiDiversiPrecedentiTotaleProventiDiversiPrecedenti",
+        "text": "64",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariAltriProventiFinanziariTotaleAltriProventiFinanziari",
+        "text": "64",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariInteressiAltriOneriFinanziariAltri",
+        "text": "13327",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ProventiOneriFinanziariInteressiAltriOneriFinanziariTotaleInteressiAltriOneriFinanziari",
+        "text": "13327",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "TotaleProventiOneriFinanziari",
+        "text": "-13263",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "RisultatoPrimaImposte",
+        "text": "-262044",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImposteRedditoEsercizioCorrentiDifferiteAnticipateProventiOneriAdesioneRegimeConsolidatoFiscaleTrasparenzaFiscale",
+        "text": "110000",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "ImposteRedditoEsercizioCorrentiDifferiteAnticipateTotaleImposteRedditoEsercizioCorrentiDifferiteAnticipate",
+        "text": "-110000",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "UtilePerditaEsercizio",
+        "text": "-152044",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniAmmortamentoImmobilizzazioniImmaterialiMaterialiAltreSvalutazioniImmobilizzazioni",
+        "text": "206015",
+        "attributes": {
+          "contextRef": "cntxCorr_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      },
+      {
+        "tag": "CostiProduzioneAmmortamentiSvalutazioniAmmortamentoImmobilizzazioniImmaterialiMaterialiAltreSvalutazioniImmobilizzazioni",
+        "text": "175667",
+        "attributes": {
+          "contextRef": "cntxPrev_d",
+          "unitRef": "eur",
+          "decimals": "0"
+        }
+      }
+    ]
+  }
+}

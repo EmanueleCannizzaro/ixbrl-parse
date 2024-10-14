@@ -1,0 +1,2538 @@
+{
+    "schema": "https://xbrl.frc.org.uk/FRS-102/2014-09-01/FRS-102-2014-09-01.xsd",
+    "namespaces": {
+        "xml:lang": [
+            "en"
+        ],
+        "xmlns": [
+            "http://www.w3.org/1999/xhtml"
+        ],
+        "xmlns:fn": [
+            "http://www.w3.org/2005/xpath-functions"
+        ],
+        "xmlns:iris": [
+            "http://www.iris.co.uk/ixbrl"
+        ],
+        "xmlns:iso4217": [
+            "http://www.xbrl.org/2003/iso4217"
+        ],
+        "xmlns:ix": [
+            "http://www.xbrl.org/2013/inlineXBRL"
+        ],
+        "xmlns:ixt": [
+            "http://www.xbrl.org/inlineXBRL/transformation/2010-04-20"
+        ],
+        "xmlns:ixt2": [
+            "http://www.xbrl.org/inlineXBRL/transformation/2011-07-31"
+        ],
+        "xmlns:link": [
+            "http://www.xbrl.org/2003/linkbase"
+        ],
+        "xmlns:ns0": [
+            "http://xbrl.frc.org.uk/FRS-102/2014-09-01"
+        ],
+        "xmlns:ns10": [
+            "http://xbrl.frc.org.uk/cd/2014-09-01/business"
+        ],
+        "xmlns:ns11": [
+            "http://xbrl.frc.org.uk/general/2014-09-01/ref"
+        ],
+        "xmlns:ns12": [
+            "http://xbrl.frc.org.uk/general/2014-09-01/common"
+        ],
+        "xmlns:ns13": [
+            "http://www.xbrl.org/2006/ref"
+        ],
+        "xmlns:ns14": [
+            "http://xbrl.frc.org.uk/cd/2014-09-01/currencies"
+        ],
+        "xmlns:ns15": [
+            "http://xbrl.frc.org.uk/cd/2014-09-01/countries"
+        ],
+        "xmlns:ns16": [
+            "http://xbrl.frc.org.uk/cd/2014-09-01/languages"
+        ],
+        "xmlns:ns17": [
+            "http://xbrl.frc.org.uk/reports/2014-09-01/accrep"
+        ],
+        "xmlns:ns18": [
+            "http://www.xbrl.org/2004/ref"
+        ],
+        "xmlns:ns19": [
+            "http://xbrl.frc.org.uk/reports/2014-09-01/aurep"
+        ],
+        "xmlns:ns20": [
+            "http://xbrl.frc.org.uk/reports/2014-09-01/direp"
+        ],
+        "xmlns:ns21": [
+            "http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc-core/2015-02-14"
+        ],
+        "xmlns:ns22": [
+            "http://www.govtalk.gov.uk/uk/fr/tax/dpl-frc/2015-02-14"
+        ],
+        "xmlns:ns23": [
+            "http://www.govtalk.gov.uk/uk/fr/tax/dpl-core/2013-10-01"
+        ],
+        "xmlns:ns24": [
+            "http://www.xbrl.org/uk/all/types/2009-09-01"
+        ],
+        "xmlns:ns25": [
+            "http://www.xbrl.org/uk/all/common/2009-09-01"
+        ],
+        "xmlns:ns26": [
+            "http://www.xbrl.org/uk/all/ref/2009-09-01"
+        ],
+        "xmlns:ns27": [
+            "http://www.xbrl.org/uk/cd/countries/2009-09-01"
+        ],
+        "xmlns:ns5": [
+            "http://xbrl.frc.org.uk/fr/2014-09-01/core"
+        ],
+        "xmlns:ns6": [
+            "http://www.xbrl.org/dtr/type/non-numeric"
+        ],
+        "xmlns:ns7": [
+            "http://www.xbrl.org/dtr/type/numeric"
+        ],
+        "xmlns:ns8": [
+            "http://xbrl.frc.org.uk/general/2014-09-01/types"
+        ],
+        "xmlns:ns9": [
+            "http://xbrl.org/2005/xbrldt"
+        ],
+        "xmlns:xbrldi": [
+            "http://xbrl.org/2006/xbrldi"
+        ],
+        "xmlns:xbrli": [
+            "http://www.xbrl.org/2003/instance"
+        ],
+        "xmlns:xl": [
+            "http://www.xbrl.org/2003/XLink"
+        ],
+        "xmlns:xlink": [
+            "http://www.w3.org/1999/xlink"
+        ],
+        "xmlns:xsi": [
+            "http://www.w3.org/2001/XMLSchema-instance"
+        ]
+    },
+    "contexts": {
+        "bfwd_31_03_2018": {
+            "id": "bfwd_31_03_2018",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [],
+            "instant": "2017-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "FY_31_03_2018": {
+            "id": "FY_31_03_2018",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "bfwd_31_03_2017": {
+            "id": "bfwd_31_03_2017",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [],
+            "instant": "2016-03-28",
+            "startdate": null,
+            "enddate": null
+        },
+        "FY_31_03_2017": {
+            "id": "FY_31_03_2017",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [],
+            "instant": null,
+            "startdate": "2016-03-29",
+            "enddate": "2017-03-31"
+        },
+        "cfwd_31_03_2017": {
+            "id": "cfwd_31_03_2017",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [],
+            "instant": "2017-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "CountriesHypercube_FY_31_03_2018_Set1": {
+            "id": "CountriesHypercube_FY_31_03_2018_Set1",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns15:EnglandWales",
+                    "dimension": "ns15:CountriesRegionsDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "CurrenciesHypercube_FY_31_03_2018_Set2": {
+            "id": "CurrenciesHypercube_FY_31_03_2018_Set2",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns14:PoundSterling",
+                    "dimension": "ns14:CurrenciesDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "EntityOfficersHypercube_FY_31_03_2018_Set3": {
+            "id": "EntityOfficersHypercube_FY_31_03_2018_Set3",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:Director1",
+                    "dimension": "ns10:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "EntityOfficersHypercube_FY_31_03_2018_Set4": {
+            "id": "EntityOfficersHypercube_FY_31_03_2018_Set4",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:Director2",
+                    "dimension": "ns10:EntityOfficersDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "LegalFormEntityHypercube_FY_31_03_2018_Set5": {
+            "id": "LegalFormEntityHypercube_FY_31_03_2018_Set5",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:PrivateLimitedCompanyLtd",
+                    "dimension": "ns10:LegalFormEntityDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "AccountingStandardsAppliedHypercube_FY_31_03_2018_Set6": {
+            "id": "AccountingStandardsAppliedHypercube_FY_31_03_2018_Set6",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:SmallEntities",
+                    "dimension": "ns10:AccountingStandardsDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "AccountsStatusHypercube_FY_31_03_2018_Set7": {
+            "id": "AccountsStatusHypercube_FY_31_03_2018_Set7",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:AuditExemptWithAccountantsReport",
+                    "dimension": "ns10:AccountsStatusDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "ApplicableLegislationHypercube_FY_31_03_2018_Set8": {
+            "id": "ApplicableLegislationHypercube_FY_31_03_2018_Set8",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:SmallCompaniesRegimeForDirectorsReport",
+                    "dimension": "ns10:ApplicableLegislationDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "ApplicableLegislationHypercube_FY_31_03_2018_Set9": {
+            "id": "ApplicableLegislationHypercube_FY_31_03_2018_Set9",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:SmallCompaniesRegimeForAccounts",
+                    "dimension": "ns10:ApplicableLegislationDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "AccountsTypeHypercube_FY_31_03_2018_Set10": {
+            "id": "AccountsTypeHypercube_FY_31_03_2018_Set10",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:AbridgedAccounts",
+                    "dimension": "ns10:AccountsTypeDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "EntityContactInfoHypercube_FY_31_03_2018_Set11": {
+            "id": "EntityContactInfoHypercube_FY_31_03_2018_Set11",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns10:RegisteredOffice",
+                    "dimension": "ns10:EntityContactTypeDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        },
+        "Creditors-SegmentsHypercube_cfwd_31_03_2018_Set1": {
+            "id": "Creditors-SegmentsHypercube_cfwd_31_03_2018_Set1",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:CurrentFinancialInstruments",
+                    "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                }
+            ],
+            "instant": "2018-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "CreditorsHypercube_cfwd_31_03_2017_Set1": {
+            "id": "CreditorsHypercube_cfwd_31_03_2017_Set1",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:CurrentFinancialInstruments",
+                    "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                }
+            ],
+            "instant": "2017-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "Creditors-SegmentsHypercube_cfwd_31_03_2018_Set2": {
+            "id": "Creditors-SegmentsHypercube_cfwd_31_03_2018_Set2",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:Non-currentFinancialInstruments",
+                    "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                }
+            ],
+            "instant": "2018-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "CreditorsHypercube_cfwd_31_03_2017_Set2": {
+            "id": "CreditorsHypercube_cfwd_31_03_2017_Set2",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:Non-currentFinancialInstruments",
+                    "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                }
+            ],
+            "instant": "2017-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "EquitySOCI-SegmentsHypercube_cfwd_31_03_2018_Set3": {
+            "id": "EquitySOCI-SegmentsHypercube_cfwd_31_03_2018_Set3",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:ShareCapital",
+                    "dimension": "ns5:EquityClassesDimension"
+                }
+            ],
+            "instant": "2018-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "EquitySOCIHypercube_cfwd_31_03_2017_Set3": {
+            "id": "EquitySOCIHypercube_cfwd_31_03_2017_Set3",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:ShareCapital",
+                    "dimension": "ns5:EquityClassesDimension"
+                }
+            ],
+            "instant": "2017-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "EquitySOCI-SegmentsHypercube_cfwd_31_03_2018_Set4": {
+            "id": "EquitySOCI-SegmentsHypercube_cfwd_31_03_2018_Set4",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:RetainedEarningsAccumulatedLosses",
+                    "dimension": "ns5:EquityClassesDimension"
+                }
+            ],
+            "instant": "2018-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "EquitySOCIHypercube_cfwd_31_03_2017_Set4": {
+            "id": "EquitySOCIHypercube_cfwd_31_03_2017_Set4",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:RetainedEarningsAccumulatedLosses",
+                    "dimension": "ns5:EquityClassesDimension"
+                }
+            ],
+            "instant": "2017-03-31",
+            "startdate": null,
+            "enddate": null
+        },
+        "PPEHypercube_FY_31_03_2018_Set12": {
+            "id": "PPEHypercube_FY_31_03_2018_Set12",
+            "entity": {
+                "scheme": "http://www.companieshouse.gov.uk/",
+                "identifier": "10023456"
+            },
+            "segments": [
+                {
+                    "tag": "explicitMember",
+                    "value": "ns5:PlantMachinery",
+                    "dimension": "ns5:PropertyPlantEquipmentClassesDimension"
+                }
+            ],
+            "instant": null,
+            "startdate": "2017-04-01",
+            "enddate": "2018-03-31"
+        }
+    },
+    "units": {
+        "GBP": "iso4217:GBP",
+        "USD": "iso4217:USD",
+        "EUR": "iso4217:EUR",
+        "shares": "xbrli:shares",
+        "pure": "xbrli:pure"
+    },
+    "nonnumeric": [
+        {
+            "schema": "ns10",
+            "name": "NameProductionSoftware",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "IRIS Accounts Production",
+            "value": "IRIS Accounts Production"
+        },
+        {
+            "schema": "ns10",
+            "name": "VersionProductionSoftware",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "v18.2.1.62",
+            "value": "v18.2.1.62"
+        },
+        {
+            "schema": "ns10",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "10023456",
+            "value": "10023456"
+        },
+        {
+            "schema": "ns10",
+            "name": "CountryFormationOrIncorporation",
+            "context": {
+                "id": "CountriesHypercube_FY_31_03_2018_Set1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns15:EnglandWales",
+                        "dimension": "ns15:CountriesRegionsDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "PrincipalCurrencyUsedInBusinessReport",
+            "context": {
+                "id": "CurrenciesHypercube_FY_31_03_2018_Set2",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns14:PoundSterling",
+                        "dimension": "ns14:CurrenciesDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns5",
+            "name": "DirectorSigningFinancialStatements",
+            "context": {
+                "id": "EntityOfficersHypercube_FY_31_03_2018_Set3",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:Director1",
+                        "dimension": "ns10:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns5",
+            "name": "DescriptionBodyAuthorisingFinancialStatements",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Board of Directors",
+            "value": "Board of Directors"
+        },
+        {
+            "schema": "ns5",
+            "name": "DirectorSigningFinancialStatements",
+            "context": {
+                "id": "EntityOfficersHypercube_FY_31_03_2018_Set4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:Director2",
+                        "dimension": "ns10:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns5",
+            "name": "DescriptionBodyAuthorisingFinancialStatements",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Board of Directors",
+            "value": "Board of Directors"
+        },
+        {
+            "schema": "ns10",
+            "name": "StartDateForPeriodCoveredByReport",
+            "context": "cfwd_31_03_2018",
+            "format": {
+                "format": "datedaymonthyear",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "1.4.17",
+            "value": "2017-04-01"
+        },
+        {
+            "schema": "ns10",
+            "name": "EndDateForPeriodCoveredByReport",
+            "context": "cfwd_31_03_2018",
+            "format": {
+                "format": "datedaymonthyear",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "31.3.18",
+            "value": "2018-03-31"
+        },
+        {
+            "schema": "ns10",
+            "name": "BalanceSheetDate",
+            "context": "cfwd_31_03_2018",
+            "format": {
+                "format": "datedaymonthyear",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "31.3.18",
+            "value": "2018-03-31"
+        },
+        {
+            "schema": "ns10",
+            "name": "ScopeAccounts",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "LegalFormEntity",
+            "context": {
+                "id": "LegalFormEntityHypercube_FY_31_03_2018_Set5",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:PrivateLimitedCompanyLtd",
+                        "dimension": "ns10:LegalFormEntityDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "ReportPeriod",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "AccountingStandardsApplied",
+            "context": {
+                "id": "AccountingStandardsAppliedHypercube_FY_31_03_2018_Set6",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:SmallEntities",
+                        "dimension": "ns10:AccountingStandardsDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "AccountsStatusAuditedOrUnaudited",
+            "context": {
+                "id": "AccountsStatusHypercube_FY_31_03_2018_Set7",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:AuditExemptWithAccountantsReport",
+                        "dimension": "ns10:AccountsStatusDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "ApplicableLegislation",
+            "context": {
+                "id": "ApplicableLegislationHypercube_FY_31_03_2018_Set8",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:SmallCompaniesRegimeForDirectorsReport",
+                        "dimension": "ns10:ApplicableLegislationDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "ApplicableLegislation",
+            "context": {
+                "id": "ApplicableLegislationHypercube_FY_31_03_2018_Set9",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:SmallCompaniesRegimeForAccounts",
+                        "dimension": "ns10:ApplicableLegislationDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "AccountsTypeFullOrAbbreviated",
+            "context": {
+                "id": "AccountsTypeHypercube_FY_31_03_2018_Set10",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:AbridgedAccounts",
+                        "dimension": "ns10:AccountsTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "AccountsTypeFullOrAbbreviated",
+            "context": {
+                "id": "AccountsTypeHypercube_FY_31_03_2018_Set10",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:AbridgedAccounts",
+                        "dimension": "ns10:AccountsTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns20",
+            "name": "CompanyHasPublishedCommitmentToUKEffectiveStewardshipCodeTruefalse",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "booleanfalse",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "false",
+            "value": false
+        },
+        {
+            "schema": "ns5",
+            "name": "FinancialStatementsArePreparedOnGoing-concernBasisTruefalse",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "booleantrue",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "true",
+            "value": true
+        },
+        {
+            "schema": "ns5",
+            "name": "DefinedBenefitPlanMulti-employerPlanTruefalse",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "booleanfalse",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "false",
+            "value": false
+        },
+        {
+            "schema": "ns5",
+            "name": "InvestmentEntityRequiredToApplyExceptionFromConsolidationTruefalse",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "booleanfalse",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "false",
+            "value": false
+        },
+        {
+            "schema": "ns5",
+            "name": "EntityHasClaimedExemptionFromReportingDisclosureRelatedPartyTransactionsForWholly-ownedEntitiesTruefalse",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "booleantrue",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "true",
+            "value": true
+        },
+        {
+            "schema": "ns10",
+            "name": "EntityTradingStatus",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "",
+            "value": null
+        },
+        {
+            "schema": "ns10",
+            "name": "EntityDormantTruefalse",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "booleanfalse",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "false",
+            "value": false
+        },
+        {
+            "schema": "ns10",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "10023456",
+            "value": "10023456"
+        },
+        {
+            "schema": "ns10",
+            "name": "ReportTitle",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Unaudited Financial Statements for the Year Ended 31st March 2018",
+            "value": "Unaudited Financial Statements for the Year Ended 31st March 2018"
+        },
+        {
+            "schema": "ns10",
+            "name": "EntityCurrentLegalOrRegisteredName",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Fake Company Limited",
+            "value": "Fake Company Limited"
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "EntityOfficersHypercube_FY_31_03_2018_Set4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:Director2",
+                        "dimension": "ns10:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "J D Fakename",
+            "value": "J D Fakename"
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "EntityOfficersHypercube_FY_31_03_2018_Set3",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:Director1",
+                        "dimension": "ns10:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "M A Namefake",
+            "value": "M A Namefake"
+        },
+        {
+            "schema": "ns10",
+            "name": "AddressLine1",
+            "context": {
+                "id": "EntityContactInfoHypercube_FY_31_03_2018_Set11",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:RegisteredOffice",
+                        "dimension": "ns10:EntityContactTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "123 Fake Road",
+            "value": "123 Fake Road"
+        },
+        {
+            "schema": "ns10",
+            "name": "PrincipalLocation-CityOrTown",
+            "context": {
+                "id": "EntityContactInfoHypercube_FY_31_03_2018_Set11",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:RegisteredOffice",
+                        "dimension": "ns10:EntityContactTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Testtown",
+            "value": "Testtown"
+        },
+        {
+            "schema": "ns10",
+            "name": "PostalCodeZip",
+            "context": {
+                "id": "EntityContactInfoHypercube_FY_31_03_2018_Set11",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:RegisteredOffice",
+                        "dimension": "ns10:EntityContactTypeDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "TE5 7ST",
+            "value": "TE5 7ST"
+        },
+        {
+            "schema": "ns10",
+            "name": "UKCompaniesHouseRegisteredNumber",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "10023456",
+            "value": "10023456"
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityAccountants",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Fakeaccountants",
+            "value": "Fakeaccountants"
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityBankers",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "BIGBANK PLC",
+            "value": "BIGBANK PLC"
+        },
+        {
+            "schema": "ns20",
+            "name": "StatementThatCompanyEntitledToExemptionFromAuditUnderSection477CompaniesAct2006RelatingToSmallCompanies",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "The company is entitled to exemption from audit under Section 477 of the Companies Act 2006 for the year ended 31st March 2018.",
+            "value": "The company is entitled to exemption from audit under Section 477 of the Companies Act 2006 for the year ended 31st March 2018."
+        },
+        {
+            "schema": "ns20",
+            "name": "StatementThatMembersHaveNotRequiredCompanyToObtainAnAudit",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "The members have not required the company to obtain an audit of its financial statements for the year ended 31st March 2018 in accordance with Section 476 of the Companies Act 2006.",
+            "value": "The members have not required the company to obtain an audit of its financial statements for the year ended 31st March 2018 in accordance with Section 476 of the Companies Act 2006."
+        },
+        {
+            "schema": "ns20",
+            "name": "StatementThatDirectorsAcknowledgeTheirResponsibilitiesUnderCompaniesAct",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "The directors acknowledge their responsibilities for:(a)ensuring that the company keeps accounting records which comply with Sections 386 and 387 of the Companies Act 2006 and (b)preparing financial statements which give a true and fair view of the state of affairs of the company as at the end of each financial year and of its profit or loss for each financial year in accordance with the requirements of Sections 394 and 395 and which otherwise comply with the requirements of the Companies Act 2006 relating to financial statements, so far as applicable to the company.",
+            "value": "The directors acknowledge their responsibilities for:(a)ensuring that the company keeps accounting records which comply with Sections 386 and 387 of the Companies Act 2006 and (b)preparing financial statements which give a true and fair view of the state of affairs of the company as at the end of each financial year and of its profit or loss for each financial year in accordance with the requirements of Sections 394 and 395 and which otherwise comply with the requirements of the Companies Act 2006 relating to financial statements, so far as applicable to the company."
+        },
+        {
+            "schema": "ns20",
+            "name": "StatementThatAccountsHaveBeenPreparedInAccordanceWithProvisionsSmallCompaniesRegime",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "The financial statements have been prepared and delivered in accordance with the provisions of Part 15 of the Companies Act 2006 relating to small companies.",
+            "value": "The financial statements have been prepared and delivered in accordance with the provisions of Part 15 of the Companies Act 2006 relating to small companies."
+        },
+        {
+            "schema": "ns20",
+            "name": "StatementThatMembersHaveAgreedToPreparationAbridgedAccountsUnderSection444CompaniesAct2006",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "All the members have consented to the preparation of an abridged Balance Sheet for the year ended 31st March 2018 in accordance with Section 444(2A) of the Companies Act 2006.",
+            "value": "All the members have consented to the preparation of an abridged Balance Sheet for the year ended 31st March 2018 in accordance with Section 444(2A) of the Companies Act 2006."
+        },
+        {
+            "schema": "ns5",
+            "name": "DateAuthorisationFinancialStatementsForIssue",
+            "context": "cfwd_31_03_2018",
+            "format": {
+                "format": "datedaymonthyearen",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "10th September 2018",
+            "value": "2018-09-10"
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "EntityOfficersHypercube_FY_31_03_2018_Set3",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:Director1",
+                        "dimension": "ns10:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "M A Namefake",
+            "value": "M A Namefake"
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityOfficer",
+            "context": {
+                "id": "EntityOfficersHypercube_FY_31_03_2018_Set4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:Director2",
+                        "dimension": "ns10:EntityOfficersDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "J D Fakename",
+            "value": "J D Fakename"
+        },
+        {
+            "schema": "ns10",
+            "name": "LegalFormEntity",
+            "context": {
+                "id": "LegalFormEntityHypercube_FY_31_03_2018_Set5",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns10:PrivateLimitedCompanyLtd",
+                        "dimension": "ns10:LegalFormEntityDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": {
+                "format": "nocontent",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "private company, limited by shares",
+            "value": null
+        },
+        {
+            "schema": "ns5",
+            "name": "FunctionalPresentationCurrencyPolicy",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "The presentation currency of the financial statements is the Pound Sterling (\u00a3).",
+            "value": "The presentation currency of the financial statements is the Pound Sterling (\u00a3)."
+        },
+        {
+            "schema": "ns5",
+            "name": "StatementComplianceWithApplicableReportingFramework",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "These financial statements have been prepared in accordance with the provisions of Section 1A \"Small Entities\" of Financial Reporting Standard 102 \"The Financial Reporting Standard applicable in the UK and Republic of Ireland\" and the Companies Act 2006. The financial statements have been prepared under the historical cost convention.",
+            "value": "These financial statements have been prepared in accordance with the provisions of Section 1A \"Small Entities\" of Financial Reporting Standard 102 \"The Financial Reporting Standard applicable in the UK and Republic of Ireland\" and the Companies Act 2006. The financial statements have been prepared under the historical cost convention."
+        },
+        {
+            "schema": "ns5",
+            "name": "RevenueRecognitionPolicy",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Turnover is measured at the fair value of the consideration received or receivable, excluding discounts, rebates,value added tax and other sales taxes.",
+            "value": "Turnover is measured at the fair value of the consideration received or receivable, excluding discounts, rebates,value added tax and other sales taxes."
+        },
+        {
+            "schema": "ns5",
+            "name": "DescriptionMeasurementBasisForPropertyPlantEquipment",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Depreciation is provided at the following annual rates in order to write off each asset over its estimated useful life.",
+            "value": "Depreciation is provided at the following annual rates in order to write off each asset over its estimated useful life."
+        },
+        {
+            "schema": "ns5",
+            "name": "DescriptionMeasurementBasisForPropertyPlantEquipment",
+            "context": {
+                "id": "PPEHypercube_FY_31_03_2018_Set12",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:PlantMachinery",
+                        "dimension": "ns5:PropertyPlantEquipmentClassesDimension"
+                    }
+                ],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "15% on cost and 15% on reducing balance",
+            "value": "15% on cost and 15% on reducing balance"
+        },
+        {
+            "schema": "ns5",
+            "name": "TaxPolicy",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Taxation for the year comprises current and deferred tax. Tax is recognised in the Income Statement, except tothe extent that it relates to items recognised in other comprehensive income or directly in equity.Current or deferred taxation assets and liabilities are not discounted.Current tax is recognised at the amount of tax payable using the tax rates and laws that have been enacted orsubstantively enacted by the balance sheet date.",
+            "value": "Taxation for the year comprises current and deferred tax. Tax is recognised in the Income Statement, except tothe extent that it relates to items recognised in other comprehensive income or directly in equity.Current or deferred taxation assets and liabilities are not discounted.Current tax is recognised at the amount of tax payable using the tax rates and laws that have been enacted orsubstantively enacted by the balance sheet date."
+        },
+        {
+            "schema": "ns5",
+            "name": "DeferredTaxPolicy",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Deferred tax is recognised in respect of all timing differences that have originated but not reversed at the balancesheet date.Timing differences arise from the inclusion of income and expenses in tax assessments in periods different fromthose in which they are recognised in financial statements. Deferred tax is measured using tax rates and laws thathave been enacted or substantively enacted by the year end and that are expected to apply to the reversal of thetiming difference.Unrelieved tax losses and other deferred tax assets are recognised only to the extent that it is probable that theywill be recovered against the reversal of deferred tax liabilities or other future taxable profits.",
+            "value": "Deferred tax is recognised in respect of all timing differences that have originated but not reversed at the balancesheet date.Timing differences arise from the inclusion of income and expenses in tax assessments in periods different fromthose in which they are recognised in financial statements. Deferred tax is measured using tax rates and laws thathave been enacted or substantively enacted by the year end and that are expected to apply to the reversal of thetiming difference.Unrelieved tax losses and other deferred tax assets are recognised only to the extent that it is probable that theywill be recovered against the reversal of deferred tax liabilities or other future taxable profits."
+        },
+        {
+            "schema": "ns5",
+            "name": "LeasesPolicy",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Rentals paid under operating leases are charged to profit or loss on a straight line basis over the period of thelease.",
+            "value": "Rentals paid under operating leases are charged to profit or loss on a straight line basis over the period of thelease."
+        },
+        {
+            "schema": "ns5",
+            "name": "DefinedContributionPensionsPolicy",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "The company operates a defined contribution pension scheme.  Contributions payable to the company's pensionscheme are charged to profit or loss in the period to which they relate.",
+            "value": "The company operates a defined contribution pension scheme.  Contributions payable to the company's pensionscheme are charged to profit or loss in the period to which they relate."
+        },
+        {
+            "schema": "ns10",
+            "name": "NameEntityAccountants",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "format": null,
+            "text": "Fakeaccountants",
+            "value": "Fakeaccountants"
+        },
+        {
+            "schema": "ns17",
+            "name": "DateAccountantsReport",
+            "context": "cfwd_31_03_2018",
+            "format": {
+                "format": "datedaymonthyearen",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": null
+            },
+            "text": "11th September 2018",
+            "value": "2018-09-11"
+        }
+    ],
+    "numeric": [
+        {
+            "name": "PropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "52,982",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 52982.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "63,450",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 63450.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CashBankOnHand",
+            "schema": "ns5",
+            "text": "67,236",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 67236.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "CashBankOnHand",
+            "schema": "ns5",
+            "text": "14,768",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 14768.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "ns5",
+            "text": "42,352",
+            "context": {
+                "id": "Creditors-SegmentsHypercube_cfwd_31_03_2018_Set1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:CurrentFinancialInstruments",
+                        "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                    }
+                ],
+                "instant": "2018-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 42352.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "ns5",
+            "text": "32,725",
+            "context": {
+                "id": "CreditorsHypercube_cfwd_31_03_2017_Set1",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:CurrentFinancialInstruments",
+                        "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                    }
+                ],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 32725.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "ns5",
+            "text": "24,884",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 24884.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetCurrentAssetsLiabilities",
+            "schema": "ns5",
+            "text": "17,957",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": -17957.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": "-"
+            }
+        },
+        {
+            "name": "TotalAssetsLessCurrentLiabilities",
+            "schema": "ns5",
+            "text": "77,866",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 77866.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TotalAssetsLessCurrentLiabilities",
+            "schema": "ns5",
+            "text": "45,493",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 45493.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "ns5",
+            "text": "39,300",
+            "context": {
+                "id": "Creditors-SegmentsHypercube_cfwd_31_03_2018_Set2",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:Non-currentFinancialInstruments",
+                        "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                    }
+                ],
+                "instant": "2018-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 39300.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Creditors",
+            "schema": "ns5",
+            "text": "19,294",
+            "context": {
+                "id": "CreditorsHypercube_cfwd_31_03_2017_Set2",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:Non-currentFinancialInstruments",
+                        "dimension": "ns5:FinancialInstrumentCurrentNon-currentDimension"
+                    }
+                ],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 19294.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ProvisionsForLiabilitiesBalanceSheetSubtotal",
+            "schema": "ns5",
+            "text": "6,318",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 6318.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "ProvisionsForLiabilitiesBalanceSheetSubtotal",
+            "schema": "ns5",
+            "text": "-",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 0,
+            "format": {
+                "decimals": 0,
+                "format": "zerodash",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilities",
+            "schema": "ns5",
+            "text": "32,248",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 32248.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "NetAssetsLiabilities",
+            "schema": "ns5",
+            "text": "26,199",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 26199.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "ns5",
+            "text": "2",
+            "context": {
+                "id": "EquitySOCI-SegmentsHypercube_cfwd_31_03_2018_Set3",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:ShareCapital",
+                        "dimension": "ns5:EquityClassesDimension"
+                    }
+                ],
+                "instant": "2018-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 2.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "ns5",
+            "text": "2",
+            "context": {
+                "id": "EquitySOCIHypercube_cfwd_31_03_2017_Set3",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:ShareCapital",
+                        "dimension": "ns5:EquityClassesDimension"
+                    }
+                ],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 2.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "ns5",
+            "text": "32,246",
+            "context": {
+                "id": "EquitySOCI-SegmentsHypercube_cfwd_31_03_2018_Set4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:RetainedEarningsAccumulatedLosses",
+                        "dimension": "ns5:EquityClassesDimension"
+                    }
+                ],
+                "instant": "2018-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 32246.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "ns5",
+            "text": "26,197",
+            "context": {
+                "id": "EquitySOCIHypercube_cfwd_31_03_2017_Set4",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [
+                    {
+                        "tag": "explicitMember",
+                        "value": "ns5:RetainedEarningsAccumulatedLosses",
+                        "dimension": "ns5:EquityClassesDimension"
+                    }
+                ],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 26197.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "ns5",
+            "text": "32,248",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 32248.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "Equity",
+            "schema": "ns5",
+            "text": "26,199",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 26199.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AverageNumberEmployeesDuringPeriod",
+            "schema": "ns5",
+            "text": "5",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "unit": "xbrli:pure",
+            "value": 5.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AverageNumberEmployeesDuringPeriod",
+            "schema": "ns5",
+            "text": "4",
+            "context": {
+                "id": "FY_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2016-03-29",
+                "enddate": "2017-03-31"
+            },
+            "unit": "xbrli:pure",
+            "value": 4.0,
+            "format": {
+                "decimals": 0,
+                "format": null,
+                "namespace": null,
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PropertyPlantEquipmentGrossCost",
+            "schema": "ns5",
+            "text": "75,037",
+            "context": {
+                "id": "bfwd_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 75037.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "TotalAdditionsIncludingFromBusinessCombinationsPropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "1,221",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 1221.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PropertyPlantEquipmentGrossCost",
+            "schema": "ns5",
+            "text": "76,258",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 76258.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AccumulatedDepreciationImpairmentPropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "11,587",
+            "context": {
+                "id": "bfwd_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 11587.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "IncreaseFromDepreciationChargeForYearPropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "11,689",
+            "context": {
+                "id": "FY_31_03_2018",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": null,
+                "startdate": "2017-04-01",
+                "enddate": "2018-03-31"
+            },
+            "unit": "iso4217:GBP",
+            "value": 11689.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "AccumulatedDepreciationImpairmentPropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "23,276",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 23276.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "52,982",
+            "context": "cfwd_31_03_2018",
+            "unit": "iso4217:GBP",
+            "value": 52982.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        },
+        {
+            "name": "PropertyPlantEquipment",
+            "schema": "ns5",
+            "text": "63,450",
+            "context": {
+                "id": "cfwd_31_03_2017",
+                "entity": {
+                    "scheme": "http://www.companieshouse.gov.uk/",
+                    "identifier": "10023456"
+                },
+                "segments": [],
+                "instant": "2017-03-31",
+                "startdate": null,
+                "enddate": null
+            },
+            "unit": "iso4217:GBP",
+            "value": 63450.0,
+            "format": {
+                "decimals": 0,
+                "format": "numdotdecimal",
+                "namespace": "ixt2",
+                "scale": 0,
+                "sign": ""
+            }
+        }
+    ],
+    "errors": 0
+}
